@@ -58,4 +58,84 @@ body {
 
     }
 
+    main {
+
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .heading {
+
+            background-color: rgb(196, 193, 193);
+            width: 70%;
+            height: 150px;
+            text-align: center;
+            border-radius: 40px;
+            align-content: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            padding: 10px;
+
+        }
+
+        .tabs {
+
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            
+            div {
+
+                background-color: white;
+                border-radius: 20px;
+                padding: 15px;
+                box-shadow: 0px 0px 10px -4px black;
+
+            }
+
+        }
+
+        .container {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+
+            .f-card {
+
+                background-image: url("./assets/cappucino.webp");
+                background-position: center;
+                background-size: cover;
+                height: 300px;
+                width: 200px;
+                position: relative;
+
+                .price , .add-to-chart {
+
+                    position: absolute;
+                    top: 90%;
+                    left: 40%;
+
+                }
+
+            }
+
+            .s-card {
+
+                background-image: url("./assets/coffee2.jpg");
+                background-position: center;
+                background-size: cover;
+                height: 300px;
+                width: 200px;
+
+            }
+
+        }
+
+    }
+
 }
