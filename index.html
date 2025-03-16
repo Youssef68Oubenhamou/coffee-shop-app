@@ -9,14 +9,19 @@
     <body>
         
         <div class="f-layer"></div>
-        <nav>
-            <img src="./assets/menu.png" alt="This is a menu icon...">
+        <nav id="head">
+            <img src="./assets/menu.png" class="menu" alt="This is a menu icon...">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#head">Search</a></li>
+                <li><a href="#footer">More</a></li>
+            </ul>
             <ul>
                 <li><a href="#"><img src="./assets/search.png" alt="This is a search icon..."></a></li>
                 <li><a href="#"><img src="./assets/bag.png" alt="This is a bag icon..."></a></li>
             </ul>
         </nav>
-        <main>
+        <main id="home">
             <section class="heading">
                 <h2>Get Your Coffee Ready in a second !</h2>
             </section>
@@ -35,20 +40,38 @@
                 </div>
             </div>
             <div class="container">
-                <div class="f-card">
-                    <!-- <img src="./assets/cappucino.webp" height="50" width="50" alt="This is a cappucino image..."> -->
+                <div class="card f-card">
                     <button class="price">$ 14</button>
                     <button class="add-to-chart">+</button>
                 </div>
-                <div class="s-card">
-                    <!-- <img src="./assets/coffee2.jpg" height="50" width="50" alt="This is a cappucino image..."> -->
+                <div class="card s-card">
+                    <button class="price">$ 12</button>
+                    <button class="add-to-chart">+</button>
+                </div>
+                <div class="card f-card">
+                    <button class="price">$ 14</button>
+                    <button class="add-to-chart">+</button>
+                </div>
+                <div class="card s-card">
                     <button class="price">$ 12</button>
                     <button class="add-to-chart">+</button>
                 </div>
             </div>
         </main>
-        <footer>
-            
+        <footer id="footer">
+            <div class="container">
+                <h2>Popular Now</h2>
+                <div class="recommendation">
+                    <img src="./assets/coffee2.jpg" height="60" width="60" alt="This is an image of coffee...">
+                    <div class="description">
+                        <p>Turkish Coffee</p>
+                        <p>$ 10</p>
+                    </div>
+                    <div class="next-btn">
+                        >
+                    </div>
+                </div>
+            </div>
         </footer>
 
     </body>
